@@ -63,6 +63,7 @@ class MenuTableViewController: UITableViewController {
                     return
                 }
                 cell.imageView?.image = image
+                self.updateUI(with: self.menuItems)
             }
         }
     }
